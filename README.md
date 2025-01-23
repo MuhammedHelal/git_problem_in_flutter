@@ -1,4 +1,4 @@
-# git_problem_in_flutter
+# unabke_to_find_git_problem_in_flutter
 ![image](https://github.com/user-attachments/assets/f3c3d655-ab42-4177-894c-5587bd81eef2)
 
 If you installed git after flutter you will encounter unable to find git in your path error.
@@ -27,3 +27,4 @@ Now new file will looks like :
   SET compilekey="%revision%:%FLUTTER_TOOL_ARGS%"  
 
 
+Problem Solved!  
