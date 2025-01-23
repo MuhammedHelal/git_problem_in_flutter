@@ -1,7 +1,8 @@
 # git_problem_in_flutter
+![image](https://github.com/user-attachments/assets/f3c3d655-ab42-4177-894c-5587bd81eef2)
 
 If you installed git after flutter you will encounter unable to find git in your path error.
-It`s a headace because there is no solution will work with you except this.
+It`s a headace because there is no solution will work with you because Modern problems require modern solutions 
 
 
 Edit  file "flutter-dir"/bin/internal/shared.bat"
@@ -26,4 +27,3 @@ REM Check that git exists and get the revision
   SET compilekey="%revision%:%FLUTTER_TOOL_ARGS%"
 
 
-Modern problems require new solutions ![image](https://github.com/user-attachments/assets/24141871-d169-44ca-a949-e185b104e884)
