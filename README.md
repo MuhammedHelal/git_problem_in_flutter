@@ -12,7 +12,7 @@ search for git_exists, make it true and comment out 2>Nul
 
 Now new file will looks like :
 
-REM Check that git exists and get the revision
+<p> REM Check that git exists and get the revision
   SET git_exists=true
   @REM 2>NUL (
   @REM   PUSHD "%flutter_root%"
@@ -24,6 +24,6 @@ REM Check that git exists and get the revision
   @REM )
   REM If git didn't execute we don't have git. Exit without /B to avoid retrying.
   if %git_exists% == false echo Error: Unable to find git in your PATH. && EXIT 1
-  SET compilekey="%revision%:%FLUTTER_TOOL_ARGS%"
+  SET compilekey="%revision%:%FLUTTER_TOOL_ARGS%" </p>
 
 
