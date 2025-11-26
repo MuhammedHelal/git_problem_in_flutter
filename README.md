@@ -34,6 +34,8 @@ Code snippet
  REM If git didn't execute we don't have git. Exit without /B to avoid retrying.  
  if %git_exists% == false echo Error: Unable to find git in your PATH. && EXIT 1  
  SET compilekey="%revision%:%FLUTTER_TOOL_ARGS%"
+
+ 
 ✅ What Changed?
 SET git_exists=true: This line is moved to the top of the block and manually sets the variable to true, bypassing the check.
 
