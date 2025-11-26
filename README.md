@@ -1,3 +1,5 @@
+Processed **Only** If you have git installed and added successfully to your path but Flutter says unable to find git in path
+
 💡 The Problem
 When you install Git after Flutter, the Flutter setup script sometimes fails to correctly locate Git, leading to the infamous error:
 
